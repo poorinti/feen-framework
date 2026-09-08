@@ -1,0 +1,16 @@
+# Local/private configuration
+src/WiFiConfig.h
+local/
+examples/**/Secrets.h
+
+# Arduino / build artifacts
+build/
+*.bin
+*.elf
+*.map
+
+# IDE / OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
