@@ -4,6 +4,8 @@
 
 Repository: https://github.com/poorinti/feen-framework
 
+ภาษาไทย: [คู่มือการใช้งาน Feen Framework](README_TH.md)
+
 The public API is intentionally small:
 
 ```cpp
