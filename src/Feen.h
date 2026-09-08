@@ -3,11 +3,13 @@
 #include "BeeDisplay.h"
 #include "BeeWiFi.h"
 #include "BeeNeXTBoard.h"
+#include "FeenFetch.h"
 
 namespace feen {
 
 using Display = beenext::BeeDisplay;
 using WiFiManager = beenext::BeeWiFi;
+using Fetch = BackgroundFetch;
 
 namespace color {
   static constexpr uint16_t BLACK  = beenext::color::BLACK;
@@ -30,12 +32,14 @@ public:
 
   Display& display() { return display_; }
   WiFiManager& wifi() { return wifi_; }
+  BackgroundFetch& fetch() { return fetch_; }
   const char* boardName() const { return "BeeNeXT 2.8R"; }
   bool ready() const { return ready_; }
 
 private:
   Display display_;
   WiFiManager wifi_;
+  BackgroundFetch fetch_;
   bool ready_ = false;
   bool wifiStarted_ = false;
 };

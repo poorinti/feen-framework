@@ -1,5 +1,11 @@
 Feen	KEYWORD1
 Framework	KEYWORD1
+BackgroundFetch	KEYWORD1
+FetchResult	KEYWORD1
 display	KEYWORD2
 connectWiFi	KEYWORD2
+fetch	KEYWORD2
+fetchNow	KEYWORD2
+available	KEYWORD2
+read	KEYWORD2
 update	KEYWORD2
